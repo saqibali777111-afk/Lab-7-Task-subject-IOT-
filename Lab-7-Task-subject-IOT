@@ -1,0 +1,56 @@
+
+# Name Saqib
+# Roll Number 86
+
+# Q1
+
+fruits = {"apple", "banana", "mango", "orange", "grapes"}
+
+print(fruits)
+
+# Q2
+
+numbers = [2, 4, 2, 6, 4, 8, 8]
+
+unique_numbers = set(numbers)
+
+print(unique_numbers)
+
+# Q3
+
+numbers = {1, 2, 3, 4, 5}
+
+numbers.add(10)
+numbers.remove(3)
+
+print(numbers)
+
+
+#Q4
+
+numbers = {10, 20, 30, 40, 50}
+
+num = int(input("Enter a number: "))
+
+if num in numbers:
+    print("Number exists in the set")
+else:
+    print("Number does not exist in the set")
+
+
+#Q5
+
+values = {1, 2, 2, 3, 3, 3, 4}
+
+print("Length of set:", len(values))
+
+#Q6
+
+A = {1, 2, 3, 4}
+B = {3, 4, 5, 6}
+
+print("Union:", A | B)
+print("Intersection:", A & B)
+print("A - B:", A - B)
+print("B - A:", B - A)
+print("Symmetric Difference:", A ^ B)
